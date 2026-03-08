@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Champion Picker</title>
+  </head>
+  <body>
+    <div id="app">
+      <footer>
+        <p>fait avec amour par thomas</p>
+      </footer>
+      <h1>🎮 Random Champion Picker</h1>
+      <p>Clique sur le bouton pour découvrir ton champion !</p>
+
+      <button id="btn-pick">🎲 Tirer un Champion</button>
+
+      <div id="result">
+        <div id="champion-info">
+          <h2 id="champion-name">???</h2>
+          <p id="champion-role">En attente...</p>
+        </div>
+
+        <div id="build-info">
+          <h3>Build recommandé</h3>
+          <ul id="build-list">
+            <li>Clique sur le bouton pour voir le build</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="champion.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
