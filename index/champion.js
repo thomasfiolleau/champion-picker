@@ -2,13 +2,13 @@ const champions = [
   {
     nom: "Yasuo",
     role: "Combattant / Assassin",
-    icon: "../assets/champ-icons/yasuo.png",
+    icon: "assets/champ-icons/yasuo.png",
     difficulte: "Difficile",
     description: "Un samouraï errant qui contrôle le vent.",
     build: [
       {
         nom: "Lame d'infini",
-        icon: "../assets/items-icons/lame-d'infinie.png",
+        icon: "assets/items-icons/lame-d'infinie.png",
       },
       "Danseur fantôme",
       "Coupeur d'os immortel",
